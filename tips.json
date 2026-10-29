@@ -42,6 +42,15 @@
       "post_url": "https://x.com/Kubai087/status/2115469767650021796",
       "date": "2026-10-28",
       "file": "reference/shape/004-concentric-radius-superellipse.md"
+    },
+    {
+      "id": "005",
+      "title_zh": "更灵动的拖拽排序（插入线 + 由近及远避让）",
+      "title_en": "Livelier drag-to-reorder",
+      "category": "interaction",
+      "post_url": "https://x.com/Kubai087/status/2115823717024735708",
+      "date": "2026-10-29",
+      "file": "reference/interaction/005-drag-reorder-ripple.md"
     }
   ]
 }
