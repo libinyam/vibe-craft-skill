@@ -1,0 +1,47 @@
+{
+  "series": {
+    "title_zh": "999 个小技巧，让你 Vibe 的产品更有质感",
+    "title_en": "999 Tips to Make Your Vibe-Coded Product Feel Crafted",
+    "author": "@Kubai087",
+    "author_url": "https://x.com/Kubai087"
+  },
+  "tips": [
+    {
+      "id": "001",
+      "title_zh": "富有点击手感的拟物按钮",
+      "title_en": "Skeuomorphic buttons with a satisfying click",
+      "category": "components",
+      "post_url": "https://x.com/Kubai087/status/2114378773655326873",
+      "post_url_en": "https://x.com/Kubai087/status/2115247182853120484",
+      "date": "2026-10-25",
+      "file": "reference/components/001-tactile-skeuomorphic-button.md"
+    },
+    {
+      "id": "002",
+      "title_zh": "级联菜单安全区域延时（安全三角区）",
+      "title_en": null,
+      "category": "interaction",
+      "post_url": "https://x.com/Kubai087/status/2114729985143677258",
+      "date": "2026-10-26",
+      "file": "reference/interaction/002-cascading-menu-safe-triangle.md"
+    },
+    {
+      "id": "003",
+      "title_zh": "Dither 与 ASCII 参数化效果",
+      "title_en": null,
+      "category": "effects",
+      "post_url": "https://x.com/Kubai087/status/2115091203465290087",
+      "date": "2026-10-27",
+      "file": "reference/effects/003-dither-ascii-effect.md"
+    },
+    {
+      "id": "004",
+      "title_zh": "递进式圆角数值 + 连续曲率圆角（超椭圆）",
+      "title_en": null,
+      "category": "shape",
+      "post_url": "https://x.com/Kubai087/status/2115469767650021796",
+      "date": "2026-10-28",
+      "file": "reference/shape/004-concentric-radius-superellipse.md"
+    }
+  ]
+}
