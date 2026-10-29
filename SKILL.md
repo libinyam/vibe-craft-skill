@@ -1,6 +1,6 @@
 ---
 name: vibe-craft
-description: Craft-level UI details that make a vibe-coded product feel designed rather than generated. Use when building or polishing UI components (buttons, menus, dropdowns, cascading/nested menus, cards, dialogs, forms, inputs, login/landing pages, hero images), when adding visual texture effects (dither, ASCII, grain), when fixing corner radii or nested-card alignment, or whenever the user asks to make an interface feel more refined, tactile, polished, "有质感", or less "AI-looking". Based on @Kubai087's series 《999 个小技巧，让你 Vibe 的产品更有质感》.
+description: Craft-level UI details that make a vibe-coded product feel designed rather than generated. Use when building or polishing UI components (buttons, menus, dropdowns, cascading/nested menus, drag-to-reorder / sortable lists, cards, dialogs, forms, inputs, login/landing pages, hero images), when adding visual texture effects (dither, ASCII, grain), when fixing corner radii or nested-card alignment, or whenever the user asks to make an interface feel more refined, tactile, polished, "有质感", or less "AI-looking". Based on @Kubai087's series 《999 个小技巧，让你 Vibe 的产品更有质感》.
 ---
 
 # Vibe Craft · 让 Vibe 出来的产品更有质感
@@ -38,6 +38,7 @@ AI 生成的界面往往"能用但没质感"：按钮是一块平色、菜单一
 | # | 技巧 | 什么时候读 |
 |---|---|---|
 | 002 | [级联菜单：安全三角区 + 三个延时](reference/interaction/002-cascading-menu-safe-triangle.md) | 写 / 改下拉菜单、多级菜单、右键菜单、导航 mega menu |
+| 005 | [拖拽排序：插入线 + 涟漪式避让](reference/interaction/005-drag-reorder-ripple.md) | 写 / 改拖拽排序、可排序列表、Dock、标签页重排 |
 
 ### 质感效果 Texture & Effects
 | # | 技巧 | 什么时候读 |
