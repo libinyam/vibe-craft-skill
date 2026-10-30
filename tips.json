@@ -51,6 +51,15 @@
       "post_url": "https://x.com/Kubai087/status/2115823717024735708",
       "date": "2026-10-29",
       "file": "reference/interaction/005-drag-reorder-ripple.md"
+    },
+    {
+      "id": "006",
+      "title_zh": "像书一样翻开的卡片",
+      "title_en": null,
+      "category": "components",
+      "post_url": "https://x.com/Kubai087/status/2116198373040759107",
+      "date": "2026-10-30",
+      "file": "reference/components/006-book-open-card.md"
     }
   ]
 }

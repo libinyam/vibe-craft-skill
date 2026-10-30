@@ -59,6 +59,7 @@ cp -r vibe-craft-skill .claude/skills/vibe-craft
 | 003 | Dither 与 ASCII 参数化效果 | 质感效果 | [reference](reference/effects/003-dither-ascii-effect.md) | [原帖](https://x.com/Kubai087/status/2115091203465290087) |
 | 004 | 递进式圆角 + 连续曲率圆角（超椭圆） | 形状与圆角 | [reference](reference/shape/004-concentric-radius-superellipse.md) | [原帖](https://x.com/Kubai087/status/2115469767650021796) |
 | 005 | 更灵动的拖拽排序：插入线 + 由近及远避让 | 交互 | [reference](reference/interaction/005-drag-reorder-ripple.md) | [原帖](https://x.com/Kubai087/status/2115823717024735708) |
+| 006 | 像书一样翻开的卡片 | 组件 | [reference](reference/components/006-book-open-card.md) | [原帖](https://x.com/Kubai087/status/2116198373040759107) |
 
 持续更新中，新技巧追加方式见 [CONTRIBUTING.md](CONTRIBUTING.md)。
 
@@ -70,7 +71,7 @@ cp -r vibe-craft-skill .claude/skills/vibe-craft
 
 ## English
 
-**vibe-craft-skill** is an Agent Skill (for Claude Code, Cursor and similar coding agents) that teaches the agent concrete, measurable UI craft details — tactile buttons, safe-triangle cascading menus, drag-to-reorder, dither/ASCII texture effects, concentric radii with superellipse corners, and more.
+**vibe-craft-skill** is an Agent Skill (for Claude Code, Cursor and similar coding agents) that teaches the agent concrete, measurable UI craft details — tactile buttons, safe-triangle cascading menus, drag-to-reorder, book-opening cards, dither/ASCII texture effects, concentric radii with superellipse corners, and more.
 
 It is based on **[@Kubai087](https://x.com/Kubai087)**'s X series *"999 Tips to Make Your Vibe-Coded Product Feel Crafted"* (《999 个小技巧，让你 Vibe 的产品更有质感》), one tip per day. **All tip ideas belong to the original author.** The files here are rewritten summaries with example code, not the original posts — follow [@Kubai087](https://x.com/Kubai087) for the originals, demo videos and full prompts.
 
