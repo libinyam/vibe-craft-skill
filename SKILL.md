@@ -1,6 +1,6 @@
 ---
 name: vibe-craft
-description: Craft-level UI details that make a vibe-coded product feel designed rather than generated. Use when building or polishing UI components (buttons, menus, dropdowns, cascading/nested menus, drag-to-reorder / sortable lists, cards, book-opening cards, dialogs, forms, inputs, login/landing pages, hero images), when adding visual texture effects (dither, ASCII, grain), when fixing corner radii or nested-card alignment, or whenever the user asks to make an interface feel more refined, tactile, polished, "有质感", or less "AI-looking". Based on @Kubai087's series 《999 个小技巧，让你 Vibe 的产品更有质感》.
+description: Craft-level UI details that make a vibe-coded product feel designed rather than generated. Use when building or polishing UI components (buttons, menus, dropdowns, cascading/nested menus, drag-to-reorder / sortable lists, cards, book-opening cards, dialogs, forms, inputs, login/landing pages, hero images), when adding visual texture effects (dither, ASCII, grain), when fixing corner radii or nested-card alignment, when polishing text layout (Chinese and English wrapping, orphans, tabular numbers, truncation, CJK spacing, kinsoku / 避头尾 / 排版), or whenever the user asks to make an interface feel more refined, tactile, polished, "有质感", or less "AI-looking". Based on @Kubai087's series 《999 个小技巧，让你 Vibe 的产品更有质感》.
 ---
 
 # Vibe Craft · 让 Vibe 出来的产品更有质感
@@ -26,6 +26,7 @@ AI 生成的界面往往"能用但没质感"：按钮是一块平色、菜单一
 - **动效有物理感但短。** 按压 / 悬停在 120–200ms 量级；展开类动画可以带一点回弹（overshoot），回弹本身就是手感的一部分。
 - **效果服务内容。** 纹理类效果（Dither / ASCII）要加遮罩让画面退后，读起来像纹理而不是噪点；并且参数可调、可复位。
 - **渐进增强。** 新 CSS 特性（如 `corner-shape`）用 `@supports` 包裹，旧浏览器自然回退。
+- **排版先解决折行。** 标题用 `balance`，正文用 `pretty`；中文正文两端对齐，且行长是整数个字；中英之间的空隙交给 `text-autospace`，不要手打空格。避头尾浏览器已经会做，删掉 `line-break: anywhere`。
 
 ## 技巧索引
 
@@ -50,6 +51,11 @@ AI 生成的界面往往"能用但没质感"：按钮是一块平色、菜单一
 | # | 技巧 | 什么时候读 |
 |---|---|---|
 | 004 | [递进式圆角 + 连续曲率（超椭圆）](reference/shape/004-concentric-radius-superellipse.md) | 嵌套卡片、对话框、表单、任何"圆角套圆角"的布局 |
+
+### 排版 Typography
+| # | 技巧 | 什么时候读 |
+|---|---|---|
+| 007 | [文字排版：折行、对齐与中英混排](reference/typography/007-text-wrap-cjk-typography.md) | 写 / 改标题、正文、按钮文案、会变的数字、截断标签，或做中英文 i18n 时 |
 
 > 机器可读索引见 [`tips.json`](tips.json)。新技巧持续追加中（原作者每日更新）。
 

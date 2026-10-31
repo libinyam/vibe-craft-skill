@@ -60,6 +60,15 @@
       "post_url": "https://x.com/Kubai087/status/2116198373040759107",
       "date": "2026-10-30",
       "file": "reference/components/006-book-open-card.md"
+    },
+    {
+      "id": "007",
+      "title_zh": "让你的文字排版更顺眼（以中英文为例）",
+      "title_en": "Cleaner text wrapping for Chinese and English",
+      "category": "typography",
+      "post_url": "https://x.com/Kubai087/status/2116555064227811412",
+      "date": "2026-10-31",
+      "file": "reference/typography/007-text-wrap-cjk-typography.md"
     }
   ]
 }
