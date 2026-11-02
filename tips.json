@@ -42,6 +42,15 @@
       "post_url": "https://x.com/Kubai087/status/2115469767650021796",
       "date": "2026-10-28",
       "file": "reference/shape/004-concentric-radius-superellipse.md"
+    },
+    {
+      "id": "008",
+      "title_zh": "如何设计 Wiki 的框架和布局，兼顾 PC 和移动端体验",
+      "title_en": null,
+      "category": "layout",
+      "post_url": "https://x.com/Kubai087/status/2116911391437443471",
+      "date": "2026-11-01",
+      "file": "reference/layout/008-docs-wiki-layout.md"
     }
   ]
 }
