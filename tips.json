@@ -42,6 +42,15 @@
       "post_url": "https://x.com/Kubai087/status/2115469767650021796",
       "date": "2026-10-28",
       "file": "reference/shape/004-concentric-radius-superellipse.md"
+    },
+    {
+      "id": "009",
+      "title_zh": "提示框、跟随气泡、就地确认、抽屉与弹窗，到底怎么选？",
+      "title_en": null,
+      "category": "interaction",
+      "post_url": "https://x.com/Kubai087/status/2117314098165862612",
+      "date": "2026-11-02",
+      "file": "reference/interaction/009-overlay-choice.md"
     }
   ]
 }
