@@ -1,6 +1,6 @@
 ---
 name: vibe-craft
-description: Craft-level UI details that make a vibe-coded product feel designed rather than generated. Use when building or polishing UI components (buttons, menus, dropdowns, cascading/nested menus, cards, dialogs, forms, inputs, login/landing pages, hero images), when adding visual texture effects (dither, ASCII, grain), when fixing corner radii or nested-card alignment, or whenever the user asks to make an interface feel more refined, tactile, polished, "有质感", or less "AI-looking". Based on @Kubai087's series 《999 个小技巧，让你 Vibe 的产品更有质感》.
+description: Craft-level UI details that make a vibe-coded product feel designed rather than generated. Use when building or polishing UI components (buttons, menus, dropdowns, cascading/nested menus, cards, dialogs, forms, inputs, login/landing pages, hero images), when choosing among a tooltip, cursor-following tip, popover, popconfirm, drawer, dialog, or a full page for a hint, a confirmation, or a form, when adding visual texture effects (dither, ASCII, grain), when fixing corner radii or nested-card alignment, or whenever the user asks to make an interface feel more refined, tactile, polished, "有质感", or less "AI-looking". Based on @Kubai087's series 《999 个小技巧，让你 Vibe 的产品更有质感》.
 ---
 
 # Vibe Craft · 让 Vibe 出来的产品更有质感
@@ -26,6 +26,7 @@ AI 生成的界面往往"能用但没质感"：按钮是一块平色、菜单一
 - **动效有物理感但短。** 按压 / 悬停在 120–200ms 量级；展开类动画可以带一点回弹（overshoot），回弹本身就是手感的一部分。
 - **效果服务内容。** 纹理类效果（Dither / ASCII）要加遮罩让画面退后，读起来像纹理而不是噪点；并且参数可调、可复位。
 - **渐进增强。** 新 CSS 特性（如 `corner-shape`）用 `@supports` 包裹，旧浏览器自然回退。
+- **浮层按代价选。** 一句说明用提示框，一块区域用跟随气泡，里面要放操作就改点击气泡。能撤销的操作直接做并留下撤销；不可逆、有锚点的单条就地确认，影响大或批量才用弹窗。短表单进弹窗，长表单或要对照页面进抽屉，主任务做成独立页。
 
 ## 技巧索引
 
@@ -38,6 +39,7 @@ AI 生成的界面往往"能用但没质感"：按钮是一块平色、菜单一
 | # | 技巧 | 什么时候读 |
 |---|---|---|
 | 002 | [级联菜单：安全三角区 + 三个延时](reference/interaction/002-cascading-menu-safe-triangle.md) | 写 / 改下拉菜单、多级菜单、右键菜单、导航 mega menu |
+| 009 | [浮层怎么选：提示框、跟随气泡、就地确认、抽屉与弹窗](reference/interaction/009-overlay-choice.md) | 写 / 改 Tooltip、跟随提示、Popover、Popconfirm、Drawer、Dialog，或决定确认与表单该打断到什么程度 |
 
 ### 质感效果 Texture & Effects
 | # | 技巧 | 什么时候读 |
