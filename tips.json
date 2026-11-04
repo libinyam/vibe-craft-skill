@@ -42,6 +42,15 @@
       "post_url": "https://x.com/Kubai087/status/2115469767650021796",
       "date": "2026-10-28",
       "file": "reference/shape/004-concentric-radius-superellipse.md"
+    },
+    {
+      "id": "010",
+      "title_zh": "液态玻璃材质",
+      "title_en": null,
+      "category": "effects",
+      "post_url": "https://x.com/Kubai087/status/2117782193108082923",
+      "date": "2026-11-04",
+      "file": "reference/effects/010-liquid-glass-material.md"
     }
   ]
 }
