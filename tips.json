@@ -42,6 +42,15 @@
       "post_url": "https://x.com/Kubai087/status/2115469767650021796",
       "date": "2026-10-28",
       "file": "reference/shape/004-concentric-radius-superellipse.md"
+    },
+    {
+      "id": "011",
+      "title_zh": "如何选择更合适的动画节奏？",
+      "title_en": null,
+      "category": "motion",
+      "post_url": "https://x.com/Kubai087/status/2118143759984803898",
+      "date": "2026-11-04",
+      "file": "reference/motion/011-animation-easing-rhythm.md"
     }
   ]
 }
