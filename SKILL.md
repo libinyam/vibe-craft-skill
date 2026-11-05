@@ -1,6 +1,6 @@
 ---
 name: vibe-craft
-description: Craft-level UI details that make a vibe-coded product feel designed rather than generated. Use when building or polishing UI components (buttons, menus, dropdowns, cascading/nested menus, cards, dialogs, forms, inputs, login/landing pages, hero images), when adding visual texture effects (dither, ASCII, grain), when fixing corner radii or nested-card alignment, or whenever the user asks to make an interface feel more refined, tactile, polished, "有质感", or less "AI-looking". Based on @Kubai087's series 《999 个小技巧，让你 Vibe 的产品更有质感》.
+description: Craft-level UI details that make a vibe-coded product feel designed rather than generated. Use when building or polishing UI components (buttons, menus, dropdowns, cascading/nested menus, cards, dialogs, forms, inputs, login/landing pages, hero images), when adding visual texture effects (dither, ASCII, grain), when fixing corner radii or nested-card alignment, when choosing animation easing and duration (entrances, exits, on-screen moves, overshoot, springs, reduced motion), or whenever the user asks to make an interface feel more refined, tactile, polished, "有质感", or less "AI-looking". Based on @Kubai087's series 《999 个小技巧，让你 Vibe 的产品更有质感》.
 ---
 
 # Vibe Craft · 让 Vibe 出来的产品更有质感
@@ -24,6 +24,7 @@ AI 生成的界面往往"能用但没质感"：按钮是一块平色、菜单一
 - **几何要自洽。** 嵌套元素的圆角要同心（内 = 外 − 间距），间距与圆角落在统一栅格上；能用连续曲率就别留折痕。
 - **一切随尺寸缩放。** 边框、阴影偏移、按压位移都应按字号比例缩放，而不是固定像素。
 - **动效有物理感但短。** 按压 / 悬停在 120–200ms 量级；展开类动画可以带一点回弹（overshoot），回弹本身就是手感的一部分。
+- **曲线按角色共用。** 进场、离场、屏上换位、小确认、松手各用一条全产品共用的曲线；CSS 默认的 `ease` 不是选项。时长、过冲用在哪、以及 `prefers-reduced-motion` 见动效技巧。
 - **效果服务内容。** 纹理类效果（Dither / ASCII）要加遮罩让画面退后，读起来像纹理而不是噪点；并且参数可调、可复位。
 - **渐进增强。** 新 CSS 特性（如 `corner-shape`）用 `@supports` 包裹，旧浏览器自然回退。
 
@@ -48,6 +49,11 @@ AI 生成的界面往往"能用但没质感"：按钮是一块平色、菜单一
 | # | 技巧 | 什么时候读 |
 |---|---|---|
 | 004 | [递进式圆角 + 连续曲率（超椭圆）](reference/shape/004-concentric-radius-superellipse.md) | 嵌套卡片、对话框、表单、任何"圆角套圆角"的布局 |
+
+### 动效 Motion
+| # | 技巧 | 什么时候读 |
+|---|---|---|
+| 011 | [如何选择更合适的动画节奏](reference/motion/011-animation-easing-rhythm.md) | 写 / 改过渡、关键帧、进场与离场、拖拽松手、悬停与按下，或把散落的 `ease` 收成按角色共用的曲线 |
 
 > 机器可读索引见 [`tips.json`](tips.json)。新技巧持续追加中（原作者每日更新）。
 

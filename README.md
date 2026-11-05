@@ -17,13 +17,14 @@ vibe-craft-skill/
 │   ├── components/       # 组件
 │   ├── interaction/      # 交互
 │   ├── effects/          # 质感效果
-│   └── shape/            # 形状与圆角
+│   ├── shape/            # 形状与圆角
+│   └── motion/           # 动效
 ├── tips.json             # 机器可读索引
 ├── CONTRIBUTING.md
 └── LICENSE
 ```
 
-当你让 AI 做按钮、菜单、卡片、表单、登录页、视觉效果，或者说"让这个页面更有质感"时，它会先读对应的 reference 再动手。
+当你让 AI 做按钮、菜单、卡片、表单、登录页、视觉效果，或为进场、离场、换位选择动画节奏，或者说"让这个页面更有质感"时，它会先读对应的 reference 再动手。
 
 ## 安装
 
@@ -58,6 +59,7 @@ cp -r vibe-craft-skill .claude/skills/vibe-craft
 | 002 | 级联菜单安全三角区 + 延时 | 交互 | [reference](reference/interaction/002-cascading-menu-safe-triangle.md) | [原帖](https://x.com/Kubai087/status/2114729985143677258) |
 | 003 | Dither 与 ASCII 参数化效果 | 质感效果 | [reference](reference/effects/003-dither-ascii-effect.md) | [原帖](https://x.com/Kubai087/status/2115091203465290087) |
 | 004 | 递进式圆角 + 连续曲率圆角（超椭圆） | 形状与圆角 | [reference](reference/shape/004-concentric-radius-superellipse.md) | [原帖](https://x.com/Kubai087/status/2115469767650021796) |
+| 011 | 如何选择更合适的动画节奏？ | 动效 | [reference](reference/motion/011-animation-easing-rhythm.md) | [原帖](https://x.com/Kubai087/status/2118143759984803898) · [Prompt 1](https://x.com/Kubai087/status/2118143923571048817) · [Prompt 2](https://x.com/Kubai087/status/2118144019545067872) |
 
 持续更新中，新技巧追加方式见 [CONTRIBUTING.md](CONTRIBUTING.md)。
 
@@ -69,7 +71,7 @@ cp -r vibe-craft-skill .claude/skills/vibe-craft
 
 ## English
 
-**vibe-craft-skill** is an Agent Skill (for Claude Code, Cursor and similar coding agents) that teaches the agent concrete, measurable UI craft details — tactile buttons, safe-triangle cascading menus, dither/ASCII texture effects, concentric radii with superellipse corners, and more.
+**vibe-craft-skill** is an Agent Skill (for Claude Code, Cursor and similar coding agents) that teaches the agent concrete, measurable UI craft details — tactile buttons, safe-triangle cascading menus, dither/ASCII texture effects, concentric radii with superellipse corners, easing and duration chosen by motion role, and more.
 
 It is based on **[@Kubai087](https://x.com/Kubai087)**'s X series *"999 Tips to Make Your Vibe-Coded Product Feel Crafted"* (《999 个小技巧，让你 Vibe 的产品更有质感》), one tip per day. **All tip ideas belong to the original author.** The files here are rewritten summaries with example code, not the original posts — follow [@Kubai087](https://x.com/Kubai087) for the originals, demo videos and full prompts.
 
