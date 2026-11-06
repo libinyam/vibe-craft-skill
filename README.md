@@ -58,6 +58,7 @@ cp -r vibe-craft-skill .claude/skills/vibe-craft
 | 002 | 级联菜单安全三角区 + 延时 | 交互 | [reference](reference/interaction/002-cascading-menu-safe-triangle.md) | [原帖](https://x.com/Kubai087/status/2114729985143677258) |
 | 003 | Dither 与 ASCII 参数化效果 | 质感效果 | [reference](reference/effects/003-dither-ascii-effect.md) | [原帖](https://x.com/Kubai087/status/2115091203465290087) |
 | 004 | 递进式圆角 + 连续曲率圆角（超椭圆） | 形状与圆角 | [reference](reference/shape/004-concentric-radius-superellipse.md) | [原帖](https://x.com/Kubai087/status/2115469767650021796) |
+| 012 | 消息气泡的材质与动效（探索版） | 组件 | [reference](reference/components/012-message-bubble-materials.md) | [中文](https://x.com/Kubai087/status/2118508433704169726) · [Prompt](https://x.com/Kubai087/status/2118508837796037053) |
 
 持续更新中，新技巧追加方式见 [CONTRIBUTING.md](CONTRIBUTING.md)。
 
