@@ -33,6 +33,7 @@ AI 生成的界面往往"能用但没质感"：按钮是一块平色、菜单一
 | # | 技巧 | 什么时候读 |
 |---|---|---|
 | 001 | [拟物按钮：有点击手感的五层材质](reference/components/001-tactile-skeuomorphic-button.md) | 写 / 改任何 Button、按钮组、工具栏按钮 |
+| 012 | [消息气泡的材质与动效（探索版）](reference/components/012-message-bubble-materials.md) | 写 / 改 Agent 或 AI 对话的消息气泡，或给聊天气泡换材质和出入场动效 |
 
 ### 交互 Interaction
 | # | 技巧 | 什么时候读 |

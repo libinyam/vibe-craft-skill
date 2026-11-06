@@ -42,6 +42,16 @@
       "post_url": "https://x.com/Kubai087/status/2115469767650021796",
       "date": "2026-10-28",
       "file": "reference/shape/004-concentric-radius-superellipse.md"
+    },
+    {
+      "id": "012",
+      "title_zh": "消息气泡的材质与动效（探索版）",
+      "title_en": "Message bubble materials and motion (exploratory)",
+      "category": "components",
+      "post_url": "https://x.com/Kubai087/status/2118508433704169726",
+      "prompt_reply_url": "https://x.com/Kubai087/status/2118508837796037053",
+      "date": "2026-11-05",
+      "file": "reference/components/012-message-bubble-materials.md"
     }
   ]
 }
