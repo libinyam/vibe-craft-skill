@@ -42,6 +42,15 @@
       "post_url": "https://x.com/Kubai087/status/2115469767650021796",
       "date": "2026-10-28",
       "file": "reference/shape/004-concentric-radius-superellipse.md"
+    },
+    {
+      "id": "014",
+      "title_zh": "让元素离场更生动：卡片删除效果",
+      "title_en": null,
+      "category": "effects",
+      "post_url": "https://x.com/Kubai087/status/2119831380276523207",
+      "date": "2026-11-09",
+      "file": "reference/effects/014-card-delete-effects.md"
     }
   ]
 }
