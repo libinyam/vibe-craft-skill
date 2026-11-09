@@ -1,6 +1,6 @@
 ---
 name: vibe-craft
-description: Craft-level UI details that make a vibe-coded product feel designed rather than generated. Use when building or polishing UI components (buttons, menus, dropdowns, cascading/nested menus, cards, dialogs, forms, inputs, login/landing pages, hero images), when adding visual texture effects (dither, ASCII, grain), when fixing corner radii or nested-card alignment, or whenever the user asks to make an interface feel more refined, tactile, polished, "有质感", or less "AI-looking". Based on @Kubai087's series 《999 个小技巧，让你 Vibe 的产品更有质感》.
+description: Craft-level UI details that make a vibe-coded product feel designed rather than generated. Use when building or polishing UI components (buttons, menus, dropdowns, cascading/nested menus, cards, dialogs, forms, inputs, login/landing pages, hero images), when adding visual texture effects (dither, ASCII, grain, shockwave halos, lens distortion, chromatic split), when fixing corner radii or nested-card alignment, or whenever the user asks to make an interface feel more refined, tactile, polished, "有质感", or less "AI-looking". Based on @Kubai087's series 《999 个小技巧，让你 Vibe 的产品更有质感》.
 ---
 
 # Vibe Craft · 让 Vibe 出来的产品更有质感
@@ -25,6 +25,7 @@ AI 生成的界面往往"能用但没质感"：按钮是一块平色、菜单一
 - **一切随尺寸缩放。** 边框、阴影偏移、按压位移都应按字号比例缩放，而不是固定像素。
 - **动效有物理感但短。** 按压 / 悬停在 120–200ms 量级；展开类动画可以带一点回弹（overshoot），回弹本身就是手感的一部分。
 - **效果服务内容。** 纹理类效果（Dither / ASCII）要加遮罩让画面退后，读起来像纹理而不是噪点；并且参数可调、可复位。
+- **冲击波是一整片透镜。** 光环整圈一起弯页面（外侧拉、内侧压），不要做成一环一环的水波；红、蓝只相对绿色偏移约 8%。色环可以染页面，文字和图标不发亮。工具栏永远留白，静止时不留画布。
 - **渐进增强。** 新 CSS 特性（如 `corner-shape`）用 `@supports` 包裹，旧浏览器自然回退。
 
 ## 技巧索引
@@ -43,6 +44,7 @@ AI 生成的界面往往"能用但没质感"：按钮是一块平色、菜单一
 | # | 技巧 | 什么时候读 |
 |---|---|---|
 | 003 | [Dither 与 ASCII 参数化效果](reference/effects/003-dither-ascii-effect.md) | 登录页 / 卡片 / Hero 图需要纹理感、复古像素感或科技感 |
+| 013 | [有物理质感的冲击波（含扭曲与通道分离）](reference/effects/013-shockwave-halo-distortion.md) | 打开输入、发送或任何「从一处荡开」的反馈需要一道会弯曲页面的光环，或要色散、边缘折射、边线反光 |
 
 ### 形状与圆角 Shape
 | # | 技巧 | 什么时候读 |
