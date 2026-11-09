@@ -42,6 +42,15 @@
       "post_url": "https://x.com/Kubai087/status/2115469767650021796",
       "date": "2026-10-28",
       "file": "reference/shape/004-concentric-radius-superellipse.md"
+    },
+    {
+      "id": "013",
+      "title_zh": "有物理质感的冲击波（含扭曲与通道分离）",
+      "title_en": null,
+      "category": "effects",
+      "post_url": "https://x.com/Kubai087/status/2119359092334743735",
+      "date": "2026-11-08",
+      "file": "reference/effects/013-shockwave-halo-distortion.md"
     }
   ]
 }
