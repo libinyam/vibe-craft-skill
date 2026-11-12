@@ -1,6 +1,6 @@
 ---
 name: vibe-craft
-description: Craft-level UI details that make a vibe-coded product feel designed rather than generated. Use when building or polishing UI components (buttons, menus, dropdowns, cascading/nested menus, cards, dialogs, forms, inputs, login/landing pages, hero images), when adding visual texture effects (dither, ASCII, grain), when fixing corner radii or nested-card alignment, or whenever the user asks to make an interface feel more refined, tactile, polished, "有质感", or less "AI-looking". Based on @Kubai087's series 《999 个小技巧，让你 Vibe 的产品更有质感》.
+description: Craft-level UI details that make a vibe-coded product feel designed rather than generated. Use when building or polishing UI components (buttons, menus, dropdowns, cascading/nested menus, cards, dialogs, forms, inputs, toasts, snackbars, notifications, login/landing pages, hero images), when adding visual texture effects (dither, ASCII, grain), when fixing corner radii or nested-card alignment, when choosing how to report a result, an undo, progress, or incoming news, or whenever the user asks to make an interface feel more refined, tactile, polished, "有质感", or less "AI-looking". Based on @Kubai087's series 《999 个小技巧，让你 Vibe 的产品更有质感》.
 ---
 
 # Vibe Craft · 让 Vibe 出来的产品更有质感
@@ -26,6 +26,7 @@ AI 生成的界面往往"能用但没质感"：按钮是一块平色、菜单一
 - **动效有物理感但短。** 按压 / 悬停在 120–200ms 量级；展开类动画可以带一点回弹（overshoot），回弹本身就是手感的一部分。
 - **效果服务内容。** 纹理类效果（Dither / ASCII）要加遮罩让画面退后，读起来像纹理而不是噪点；并且参数可调、可复位。
 - **渐进增强。** 新 CSS 特性（如 `corner-shape`）用 `@supports` 包裹，旧浏览器自然回退。
+- **反馈和这件事的分量一致。** 刚做完、看一眼就够的，用会自己走的 Toast。别人或系统送来、漏看会有后果的，用留得住的 Notification。必须修好的失败和收不回来的操作，不要交给一条几秒后消失的 Toast。
 
 ## 技巧索引
 
@@ -33,6 +34,7 @@ AI 生成的界面往往"能用但没质感"：按钮是一块平色、菜单一
 | # | 技巧 | 什么时候读 |
 |---|---|---|
 | 001 | [拟物按钮：有点击手感的五层材质](reference/components/001-tactile-skeuomorphic-button.md) | 写 / 改任何 Button、按钮组、工具栏按钮 |
+| 016 | [Toast 还是 Notification](reference/components/016-toast-or-notification.md) | 操作结果、撤销、上传进度、别人或系统发来的消息、通知铃铛。先诊断现有提示，出表等用户圈定，再决定改种类还是改外观 |
 
 ### 交互 Interaction
 | # | 技巧 | 什么时候读 |

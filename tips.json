@@ -42,6 +42,15 @@
       "post_url": "https://x.com/Kubai087/status/2115469767650021796",
       "date": "2026-10-28",
       "file": "reference/shape/004-concentric-radius-superellipse.md"
+    },
+    {
+      "id": "016",
+      "title_zh": "Toast 和 Notification 怎么选",
+      "title_en": null,
+      "category": "components",
+      "post_url": "https://x.com/Kubai087/status/2120682993563922586",
+      "date": "2026-11-11",
+      "file": "reference/components/016-toast-or-notification.md"
     }
   ]
 }
