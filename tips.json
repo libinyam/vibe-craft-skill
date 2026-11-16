@@ -42,6 +42,15 @@
       "post_url": "https://x.com/Kubai087/status/2115469767650021796",
       "date": "2026-10-28",
       "file": "reference/shape/004-concentric-radius-superellipse.md"
+    },
+    {
+      "id": "017",
+      "title_zh": "巧用等待状态，让产品响应更丝滑",
+      "title_en": null,
+      "category": "interaction",
+      "post_url": "https://x.com/Kubai087/status/2121449185014845794",
+      "date": "2026-11-13",
+      "file": "reference/interaction/017-waiting-states.md"
     }
   ]
 }
