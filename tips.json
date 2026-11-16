@@ -42,6 +42,15 @@
       "post_url": "https://x.com/Kubai087/status/2115469767650021796",
       "date": "2026-10-28",
       "file": "reference/shape/004-concentric-radius-superellipse.md"
+    },
+    {
+      "id": "018",
+      "title_zh": "会倾斜、能翻转的 3D 镭射卡片",
+      "title_en": null,
+      "category": "effects",
+      "post_url": "https://x.com/Kubai087/status/2121892029403922717",
+      "date": "2026-11-15",
+      "file": "reference/effects/018-holographic-card.md"
     }
   ]
 }
