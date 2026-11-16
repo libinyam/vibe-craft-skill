@@ -1,6 +1,6 @@
 ---
 name: vibe-craft
-description: Craft-level UI details that make a vibe-coded product feel designed rather than generated. Use when building or polishing UI components (buttons, menus, dropdowns, cascading/nested menus, cards, dialogs, forms, inputs, login/landing pages, hero images), when adding visual texture effects (dither, ASCII, grain), when fixing corner radii or nested-card alignment, or whenever the user asks to make an interface feel more refined, tactile, polished, "有质感", or less "AI-looking". Based on @Kubai087's series 《999 个小技巧，让你 Vibe 的产品更有质感》.
+description: Craft-level UI details that make a vibe-coded product feel designed rather than generated. Use when building or polishing UI components (buttons, menus, dropdowns, cascading/nested menus, cards, dialogs, forms, inputs, login/landing pages, hero images), when adding visual texture effects (dither, ASCII, grain), when fixing corner radii or nested-card alignment, when showing a waiting state (loading, skeleton, optimistic update), or whenever the user asks to make an interface feel more refined, tactile, polished, "有质感", or less "AI-looking". Based on @Kubai087's series 《999 个小技巧，让你 Vibe 的产品更有质感》.
 ---
 
 # Vibe Craft · 让 Vibe 出来的产品更有质感
@@ -26,6 +26,7 @@ AI 生成的界面往往"能用但没质感"：按钮是一块平色、菜单一
 - **动效有物理感但短。** 按压 / 悬停在 120–200ms 量级；展开类动画可以带一点回弹（overshoot），回弹本身就是手感的一部分。
 - **效果服务内容。** 纹理类效果（Dither / ASCII）要加遮罩让画面退后，读起来像纹理而不是噪点；并且参数可调、可复位。
 - **渐进增强。** 新 CSS 特性（如 `corner-shape`）用 `@supports` 包裹，旧浏览器自然回退。
+- **等待按长短来，版面不许跳。** 不到 300ms 不单独做加载。300ms 后才出现的，至少留 500ms。结构已知用骨架，数得清的长任务用进度，几乎总会成功又好撤销的先显示结果。一次等待一个指示。
 
 ## 技巧索引
 
@@ -38,6 +39,7 @@ AI 生成的界面往往"能用但没质感"：按钮是一块平色、菜单一
 | # | 技巧 | 什么时候读 |
 |---|---|---|
 | 002 | [级联菜单：安全三角区 + 三个延时](reference/interaction/002-cascading-menu-safe-triangle.md) | 写 / 改下拉菜单、多级菜单、右键菜单、导航 mega menu |
+| 017 | [等待状态：转圈、骨架、进度与乐观更新](reference/interaction/017-waiting-states.md) | 按钮保存 / 刷新 / 同步、列表或页面加载、上传导入等耗时任务、乐观更新、流式 AI 回答等需要等待反馈时。先出诊断表，等用户选定再改 |
 
 ### 质感效果 Texture & Effects
 | # | 技巧 | 什么时候读 |
