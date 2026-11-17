@@ -42,6 +42,15 @@
       "post_url": "https://x.com/Kubai087/status/2115469767650021796",
       "date": "2026-10-28",
       "file": "reference/shape/004-concentric-radius-superellipse.md"
+    },
+    {
+      "id": "019",
+      "title_zh": "五种经典的卡片滚动交互",
+      "title_en": null,
+      "category": "interaction",
+      "post_url": "https://x.com/Kubai087/status/2122492414598459820",
+      "date": "2026-11-16",
+      "file": "reference/interaction/019-scroll-driven-card-interactions.md"
     }
   ]
 }
