@@ -38,6 +38,7 @@ AI 生成的界面往往"能用但没质感"：按钮是一块平色、菜单一
 | # | 技巧 | 什么时候读 |
 |---|---|---|
 | 002 | [级联菜单：安全三角区 + 三个延时](reference/interaction/002-cascading-menu-safe-triangle.md) | 写 / 改下拉菜单、多级菜单、右键菜单、导航 mega menu |
+| 019 | [五种经典的卡片滚动交互](reference/interaction/019-scroll-driven-card-interactions.md) | 写 / 改产品官网、个人作品集、长落地页，或加层叠卡片 / 卡组飞出 / 横向展廊 / 封面轮播 / 图片展开这类滚动驱动交互 |
 
 ### 质感效果 Texture & Effects
 | # | 技巧 | 什么时候读 |
