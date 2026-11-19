@@ -42,6 +42,15 @@
       "post_url": "https://x.com/Kubai087/status/2115469767650021796",
       "date": "2026-10-28",
       "file": "reference/shape/004-concentric-radius-superellipse.md"
+    },
+    {
+      "id": "020",
+      "title_zh": "开关、复选框、单选和下拉，怎么选？",
+      "title_en": "Choosing a switch, checkbox, radio, segment or dropdown",
+      "category": "components",
+      "post_url": "https://x.com/Kubai087/status/2123217190052827633",
+      "date": "2026-11-18",
+      "file": "reference/components/020-choice-controls.md"
     }
   ]
 }
