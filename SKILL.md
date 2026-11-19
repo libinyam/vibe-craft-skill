@@ -33,6 +33,7 @@ AI 生成的界面往往"能用但没质感"：按钮是一块平色、菜单一
 | # | 技巧 | 什么时候读 |
 |---|---|---|
 | 001 | [拟物按钮：有点击手感的五层材质](reference/components/001-tactile-skeuomorphic-button.md) | 写 / 改任何 Button、按钮组、工具栏按钮 |
+| 020 | [开关、复选框、单选和下拉，怎么选？](reference/components/020-choice-controls.md) | 写 / 改设置页、表单、问卷、工具栏里的开关、复选框、单选、分段选择、下拉选择或下拉菜单，或判断该用哪一种选择控件 |
 
 ### 交互 Interaction
 | # | 技巧 | 什么时候读 |
