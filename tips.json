@@ -42,6 +42,15 @@
       "post_url": "https://x.com/Kubai087/status/2115469767650021796",
       "date": "2026-10-28",
       "file": "reference/shape/004-concentric-radius-superellipse.md"
+    },
+    {
+      "id": "021",
+      "title_zh": "景深环形卡片与流体渐变",
+      "title_en": "Ring cards with depth and a fluid gradient",
+      "category": "effects",
+      "post_url": "https://x.com/Kubai087/status/2123579578098536608",
+      "date": "2026-11-19",
+      "file": "reference/effects/021-ring-cards.md"
     }
   ]
 }
