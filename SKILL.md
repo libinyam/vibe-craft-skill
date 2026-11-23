@@ -33,6 +33,7 @@ AI 生成的界面往往"能用但没质感"：按钮是一块平色、菜单一
 | # | 技巧 | 什么时候读 |
 |---|---|---|
 | 001 | [拟物按钮：有点击手感的五层材质](reference/components/001-tactile-skeuomorphic-button.md) | 写 / 改任何 Button、按钮组、工具栏按钮 |
+| 022 | [空状态的三种画法](reference/components/022-empty-states.md) | 写 / 改列表、表格、搜索、收件箱、仪表盘卡片、加载失败或无权限等可能为空的界面，或判断该用线框版、图标版还是迷你版空状态 |
 
 ### 交互 Interaction
 | # | 技巧 | 什么时候读 |

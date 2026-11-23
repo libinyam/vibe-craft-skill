@@ -42,6 +42,15 @@
       "post_url": "https://x.com/Kubai087/status/2115469767650021796",
       "date": "2026-10-28",
       "file": "reference/shape/004-concentric-radius-superellipse.md"
+    },
+    {
+      "id": "022",
+      "title_zh": "空状态的三种画法",
+      "title_en": "Three ways to draw empty states",
+      "category": "components",
+      "post_url": "https://x.com/Kubai087/status/2124170395825873348",
+      "date": "2026-11-21",
+      "file": "reference/components/022-empty-states.md"
     }
   ]
 }
