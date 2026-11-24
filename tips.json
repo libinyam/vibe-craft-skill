@@ -42,6 +42,15 @@
       "post_url": "https://x.com/Kubai087/status/2115469767650021796",
       "date": "2026-10-28",
       "file": "reference/shape/004-concentric-radius-superellipse.md"
+    },
+    {
+      "id": "024",
+      "title_zh": "程序化生成点阵",
+      "title_en": "Dot-matrix loading and reveal animations for AI images",
+      "category": "effects",
+      "post_url": "https://x.com/Kubai087/status/2125220063301271808",
+      "date": "2026-11-24",
+      "file": "reference/effects/024-procedural-dot-matrix.md"
     }
   ]
 }
