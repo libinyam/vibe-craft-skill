@@ -1,6 +1,6 @@
 ---
 name: vibe-craft
-description: Craft-level UI details that make a vibe-coded product feel designed rather than generated. Use when building or polishing UI components (buttons, menus, dropdowns, cascading/nested menus, cards, dialogs, forms, inputs, login/landing pages, hero images), when adding visual texture effects (dither, ASCII, grain), when fixing corner radii or nested-card alignment, or whenever the user asks to make an interface feel more refined, tactile, polished, "有质感", or less "AI-looking". Based on @Kubai087's series 《999 个小技巧，让你 Vibe 的产品更有质感》.
+description: Craft-level UI details that make a vibe-coded product feel designed rather than generated. Use when building or polishing UI components (buttons, menus, dropdowns, cascading/nested menus, cards, dialogs, forms, inputs, login/landing pages, hero images), when adding visual texture effects (dither, ASCII, grain, or a procedural dot matrix for generated-image wait and reveal), when fixing corner radii or nested-card alignment, or whenever the user asks to make an interface feel more refined, tactile, polished, "有质感", or less "AI-looking". Based on @Kubai087's series 《999 个小技巧，让你 Vibe 的产品更有质感》.
 ---
 
 # Vibe Craft · 让 Vibe 出来的产品更有质感
@@ -43,6 +43,7 @@ AI 生成的界面往往"能用但没质感"：按钮是一块平色、菜单一
 | # | 技巧 | 什么时候读 |
 |---|---|---|
 | 003 | [Dither 与 ASCII 参数化效果](reference/effects/003-dither-ascii-effect.md) | 登录页 / 卡片 / Hero 图需要纹理感、复古像素感或科技感 |
+| 024 | [程序化生成点阵](reference/effects/024-procedural-dot-matrix.md) | 为生图或其他内容生成做等待与出图，或想用程序化点阵替代传统 Loading 时 |
 
 ### 形状与圆角 Shape
 | # | 技巧 | 什么时候读 |
