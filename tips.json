@@ -42,6 +42,15 @@
       "post_url": "https://x.com/Kubai087/status/2115469767650021796",
       "date": "2026-10-28",
       "file": "reference/shape/004-concentric-radius-superellipse.md"
+    },
+    {
+      "id": "023",
+      "title_zh": "做好移动端网页适配的 4 个 Tips",
+      "title_en": "Four details that make web apps feel native on mobile",
+      "category": "layout",
+      "post_url": "https://x.com/Kubai087/status/2125029129619644704",
+      "date": "2026-11-23",
+      "file": "reference/layout/023-mobile-web.md"
     }
   ]
 }

@@ -1,6 +1,6 @@
 ---
 name: vibe-craft
-description: Craft-level UI details that make a vibe-coded product feel designed rather than generated. Use when building or polishing UI components (buttons, menus, dropdowns, cascading/nested menus, cards, dialogs, forms, inputs, login/landing pages, hero images), when adding visual texture effects (dither, ASCII, grain), when fixing corner radii or nested-card alignment, or whenever the user asks to make an interface feel more refined, tactile, polished, "有质感", or less "AI-looking". Based on @Kubai087's series 《999 个小技巧，让你 Vibe 的产品更有质感》.
+description: Craft-level UI details that make a vibe-coded product feel designed rather than generated. Use when building or polishing UI components (buttons, menus, dropdowns, cascading/nested menus, cards, dialogs, forms, inputs, login/landing pages, hero images), when adding visual texture effects (dither, ASCII, grain), when fixing corner radii or nested-card alignment, when adapting a web page for phones (PWA install, bottom navigation, iOS tap highlight, Safari status bar and toolbar tint), or whenever the user asks to make an interface feel more refined, tactile, polished, "有质感", or less "AI-looking". Based on @Kubai087's series 《999 个小技巧，让你 Vibe 的产品更有质感》.
 ---
 
 # Vibe Craft · 让 Vibe 出来的产品更有质感
@@ -48,6 +48,11 @@ AI 生成的界面往往"能用但没质感"：按钮是一块平色、菜单一
 | # | 技巧 | 什么时候读 |
 |---|---|---|
 | 004 | [递进式圆角 + 连续曲率（超椭圆）](reference/shape/004-concentric-radius-superellipse.md) | 嵌套卡片、对话框、表单、任何"圆角套圆角"的布局 |
+
+### 布局 Layout
+| # | 技巧 | 什么时候读 |
+|---|---|---|
+| 023 | [做好移动端网页适配的 4 个 Tips](reference/layout/023-mobile-web.md) | 做移动端网页适配、PWA 添加到桌面、把导航改到底部、去掉 iOS 点击高亮，或处理 Safari 状态栏 / 工具栏取色时 |
 
 > 机器可读索引见 [`tips.json`](tips.json)。新技巧持续追加中（原作者每日更新）。
 
