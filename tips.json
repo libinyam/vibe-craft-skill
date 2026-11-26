@@ -42,6 +42,15 @@
       "post_url": "https://x.com/Kubai087/status/2115469767650021796",
       "date": "2026-10-28",
       "file": "reference/shape/004-concentric-radius-superellipse.md"
+    },
+    {
+      "id": "025",
+      "title_zh": "选用正确的延时，让你的悬停与切换更加人性化",
+      "title_en": "Hover and switching delays that follow user intent",
+      "category": "interaction",
+      "post_url": "https://x.com/Kubai087/status/2125741330328391991",
+      "date": "2026-11-25",
+      "file": "reference/interaction/025-hover-timing.md"
     }
   ]
 }

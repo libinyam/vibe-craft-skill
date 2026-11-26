@@ -38,6 +38,7 @@ AI 生成的界面往往"能用但没质感"：按钮是一块平色、菜单一
 | # | 技巧 | 什么时候读 |
 |---|---|---|
 | 002 | [级联菜单：安全三角区 + 三个延时](reference/interaction/002-cascading-menu-safe-triangle.md) | 写 / 改下拉菜单、多级菜单、右键菜单、导航 mega menu |
+| 025 | [选用正确的延时，让你的悬停与切换更加人性化](reference/interaction/025-hover-timing.md) | 写 / 改 Tooltip、Hover Card、悬停预览、工具栏提示，或处理悬停延时、误触和组内切换时 |
 
 ### 质感效果 Texture & Effects
 | # | 技巧 | 什么时候读 |
